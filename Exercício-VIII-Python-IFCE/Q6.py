@@ -12,7 +12,6 @@ def verificar_triangulo():
         print("Entrada inválida. Digite números para os lados.")
         return
 
-    # Verifica se é possível formar um triângulo
     if (lado1 + lado2 > lado3) and (lado1 + lado3 > lado2) and (lado2 + lado3 > lado1):
         if lado1 == lado2 == lado3:
             print("Equilátero")
@@ -23,5 +22,4 @@ def verificar_triangulo():
     else:
         print("Não é triângulo")
 
-# Executa a função para verificar e classificar o triângulo
 verificar_triangulo()

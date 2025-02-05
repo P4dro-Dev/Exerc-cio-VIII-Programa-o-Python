@@ -10,10 +10,9 @@
 # 200 Total = R$ 155.00
 # 400 Total = R$ 405.00
 
-# Solicita ao usuário o consumo de energia em kWh
+
 consumo = float(input("Digite o consumo de energia em kWh: "))
 
-# Calcula o valor da conta com base no consumo
 if consumo <= 100:
     valor = consumo * 0.50
 elif 101 <= consumo <= 300:

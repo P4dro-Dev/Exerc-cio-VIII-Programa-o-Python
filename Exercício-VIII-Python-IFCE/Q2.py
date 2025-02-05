@@ -8,10 +8,9 @@
 # Entre 38.1 e 39.9 Febre moderada
 # 40.0 ou mais Febre alta - Procure um médico
 
-# Solicita ao usuário a temperatura corporal
+
 temperatura = float(input("Digite a temperatura corporal: "))
 
-# Usando a estrutura if-elif-else para determinar a situação da saúde
 if temperatura < 35.0:
     print("Hipotermia")
 elif 35.0 <= temperatura <= 37.4:

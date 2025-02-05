@@ -62,5 +62,4 @@ def gerenciador_notas():
         else:
             print("Opção inválida.")
 
-# Executa o gerenciador de notas
 gerenciador_notas()

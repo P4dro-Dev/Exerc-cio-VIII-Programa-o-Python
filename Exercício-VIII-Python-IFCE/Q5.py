@@ -12,7 +12,7 @@ def calcular_valor_total():
     forma_pagamento = input("Digite a forma de pagamento (À vista, Parcelado ou Outro): ").lower()
 
     if forma_pagamento == "à vista":
-        valor_total = valor_compra * 0.9  # 10% de desconto
+        valor_total = valor_compra * 0.9  
         print(f"Total = R$ {valor_total:.2f}")
     elif forma_pagamento == "parcelado":
         try:
@@ -24,7 +24,7 @@ def calcular_valor_total():
         if parcelas <= 2:
             valor_total = valor_compra
         elif parcelas >= 3:
-            valor_total = valor_compra * 1.15  # 15% de juros
+            valor_total = valor_compra * 1.15  
         else:
             print("Quantidade de parcelas inválida.")
             return

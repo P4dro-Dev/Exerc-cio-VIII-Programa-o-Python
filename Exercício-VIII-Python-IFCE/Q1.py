@@ -8,10 +8,9 @@
 # 14 Não recomendado para menores de 14 anos
 # Outros Classificação inválida.
 
-# Solicita ao usuário a classificação indicativa do filme
+
 classificacao = int(input("Digite a classificação indicativa do filme: "))
 
-# Usando a estrutura if-elif-else para determinar a categoria do filme
 if classificacao == 0:
     print("Livre para todos os públicos")
 elif classificacao == 10:
@@ -23,7 +22,6 @@ elif classificacao == 14:
 else:
     print("Classificação inválida")
 
-# Usando a estrutura match-case (disponível a partir do Python 3.10)
 match classificacao:
     case 0:
         print("Livre para todos os públicos")
